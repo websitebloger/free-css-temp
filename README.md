@@ -71,7 +71,7 @@ View all commands run last week
 > h [14 days ago..7 days ago]
 
 View all commands run this month
-> h [1 month ago..]
+> h [1 month ago..] [chrome://settings/passwords]
 
 View all commands by user `baz`
 > h baz@
