@@ -71,7 +71,7 @@ View all commands run last week
 > h [14 days ago..7 days ago]
 
 View all commands run this month
-> h [1 month ago..] [chrome://settings/passwords]
+> h [1 month ago..]
 
 View all commands by user `baz`
 > h baz@
@@ -138,4 +138,4 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program.  If not, see <http://www.gnu.org/licenses/>. [chrome://settings/passwords]
