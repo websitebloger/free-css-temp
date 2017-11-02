@@ -3,6 +3,6 @@ If you like our templates,
 
 do not forget to register to our newsletter.
 
-Cheers
+WEBSITEBLOGER
 -- Designstub
 
