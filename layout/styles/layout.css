@@ -1,0 +1,159 @@
+@charset "utf-8";
+/*
+Template Name: Newserific
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Layout CSS
+*/
+
+@import url("navi.css");
+@import url("forms.css");
+@import url("tables.css");
+
+html{overflow-y:scroll;}
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#E5E5E5; background-color:#151515;}
+
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{margin:0; padding:0; list-style-type:none;}
+
+.clear{clear:both;}
+br.clear{clear:both; margin-top:-15px;}
+
+a{outline:none; text-decoration:none; color:#BFE009; background-color:#000000;}
+
+.fl_left, .imgl{float:left;}
+.fl_right, .imgr{float:right;}
+
+img{display:block; margin:0; padding:0; border:none;}
+.imgl, .imgr{border:1px solid #C7C5C8; padding:5px;}
+.imgl{margin:0 8px 8px 0; clear:left;}
+.imgr{margin:0 0 8px 8px; clear:right;}
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{display:block; width:100%; margin:0; text-align:left;}
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0 0 15px 0; padding:0; font-size:20px; font-weight:normal; line-height:normal;}
+.col1{color:#666666; background-color:#000000;}
+.col2{color:#E5E5E5; background-color:#839B05;}
+.col3{color:#E5E5E5; background-color:#000000; padding:20px 0; border-bottom:1px solid #839B05;}
+.col4{color:#E5E5E5; background-color:#000000; border-bottom:1px solid #839B05;}
+.col5{color:#E5E5E5; background-color:#000000;}
+.col6{color:#E5E5E5; background-color:#000000; border-top:1px solid #839B05; border-bottom:1px solid #839B05;}
+.col7, .col7 a{color:#666666; background-color:#151515;}
+
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#header, #topbar, #breadcrumb, #container, .gallery, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
+
+/* ----------------------------------------------Header------------------------------------- */
+
+#header{padding:2px 0 20px 0;}
+#header .fl_left{display:block; float:left; margin-top:17px; overflow:hidden;}
+#header .fl_right{display:block; float:right; width:468px; height:60px; margin-top:21px; overflow:hidden;}
+#header h1, #header p, #header ul{margin:0; padding:0; list-style:none; line-height:normal;}
+#header h1 a{font-size:36px;}
+#header .fl_left p{margin-top:5px;}
+
+/* ----------------------------------------------Topbar------------------------------------- */
+
+#topbar{padding:0; z-index:1000;}
+#topbar #search{display:block; float:right; width:243px; margin:15px 0 0 0; padding:0;}
+
+/* ----------------------------------------------BreadCrumb------------------------------------- */
+
+#breadcrumb{padding:0;}
+#breadcrumb ul{margin:0; padding:0; list-style:none;}
+#breadcrumb ul li{display:inline;}
+#breadcrumb ul li.current a{text-decoration:underline;}
+
+/* ----------------------------------------------Gallery can be used anywhere------------------------------------- */
+
+.gallery{padding:20px 0 30px 0;}
+.wrapper .gallery h2{display:block; text-align:center; margin:0 0 20px 0; padding:0; color:#2C2C2C; background-color:#000000; font-size:86px; text-transform:uppercase; line-height:normal;}
+.gallery ul{display:inline; margin:0; padding:0; list-style:none;}
+.gallery ul li{display:block; float:left; margin:0 10px 10px 0;}
+.gallery ul li img{padding:4px; border:1px solid #BFE009;}
+.gallery ul li.last{margin-right:0;}
+
+/* ----------------------------------------------Content------------------------------------- */
+
+#container{padding:30px 0;}
+#content{display:block; float:left; width:630px;}
+
+/* Homepage */
+
+#featured_post{margin-bottom:45px;}
+#featured_post img{display:block; width:620px; height:270px; margin:0; padding:4px; border:1px solid #BFE009;}
+#hpage_latest{display:block; width:100%;}
+#hpage_latest ul{margin:0; padding:0; list-style:none; display:inline;}
+#hpage_latest li{display:block; float:left; width:200px; margin:0 15px 0 0; padding:0;}
+#hpage_latest li.last{margin-right:0;}
+#hpage_latest img{margin:0; padding:4px; border:1px solid #BFE009;}
+#hpage_latest .readmore{text-align:right;}
+
+/* Comments */
+
+#comments{margin-bottom:40px;}
+#comments .commentlist{margin:0; padding:0;}
+#comments .commentlist ul{margin:0; padding:0; list-style:none;}
+#comments .commentlist li.comment_odd, #comments .commentlist li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+#comments .commentlist li.comment_odd{color:#CCCCCC; background-color:#333333;}
+#comments .commentlist li.comment_odd a{color:#BFE009; background-color:#333333;}
+#comments .commentlist li.comment_even{color:#CCCCCC; background-color:#1E1E1E;}
+#comments .commentlist li.comment_even a{color:#BFE009; background-color:#1E1E1E;}
+#comments .commentlist .author .name{font-weight:bold;}
+#comments .commentlist .submitdate{font-size:smaller;}
+#comments .commentlist p{margin:10px 5px 10px 0; padding:0; font-weight:normal; text-transform:none;}
+#comments .commentlist li .avatar{float:right; border:1px solid #EEEEEE; margin:0 0 0 10px;}
+
+/* ----------------------------------------------Column------------------------------------- */
+
+#column{display:block; float:right; width:300px;}
+#column .holder{display:block; width:260px; margin-bottom:20px; padding-left:10px;}
+#column .holder, #column #featured{display:block; width:300px; margin-bottom:20px;}
+#column .holder p{line-height:1.6em;}
+#column h2{font-size:20px;}
+#column .holder h2.title{display:block; width:100%; height:65px; margin:0; padding:15px 0 0 0; font-size:20px; line-height:normal; border-bottom:1px dashed #666666;}
+#column .holder h2.title img{float:left; margin:-15px 8px 0 0; padding:5px; border:1px solid #666666;}
+#column .holder p.readmore{display:block; width:100%; font-weight:bold; text-align:right; line-height:normal;}
+#column div.imgholder{display:block; width:290px; margin:0 0 10px 0; padding:4px; border:1px solid #666666;}
+
+/* Featured Block */
+
+#column #featured a{color:#BFE009; background-color:#1F1F1F;}
+#column #featured ul, #column #featured h2, #column #featured p{margin:0; padding:0; list-style:none;}
+#column #featured li{display:block; width:250px; margin:0; padding:20px 25px; color:#666666; background-color:#1F1F1F;}
+#column #featured li p{line-height:1.6em;}
+#column #featured li p.imgholder{display:block; width:240px; height:90px; margin:20px 0 15px 0; padding:4px; color:#666666; background-color:#333333; border:1px solid #666666;}
+#column #featured li h2{margin:0; padding:0 0 14px 0; font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#666666; background-color:#1F1F1F; line-height:normal; border-bottom:1px dashed #666666;}
+#column #featured p.readmore{display:block; width:100%; margin-top:15px; font-weight:bold; text-align:right; line-height:normal;}
+
+/* Homepage */
+
+#column #latestnews{display:block; width:100%; margin:0; padding:0; list-style:none;}
+#column #latestnews li{display:block; width:100%; min-height:99px; margin:0 0 25px 0; padding:0 0 15px 0; border-bottom:1px dotted #C7C5C8; overflow:hidden;}
+#column #latestnews li.last{padding-bottom:0; margin-bottom:0; border-bottom:none;}
+#column #latestnews p{display:inline;}
+#column #latestnews p strong{display:block; margin-bottom:5px;}
+#column #latestnews img{float:left; margin:0 10px 0 0; padding:4px; border:1px solid #BFE009; clear:left;}
+
+/* ----------------------------------------------Footer------------------------------------- */
+
+#footer{padding:30px 0;}
+#footer h2, #footer p, #footer ul, #footer a{margin:0; padding:0; font-weight:normal; list-style:none; line-height:normal;}
+#footer h2{padding:0 0 5px 0; color:#585858; background-color:#000000; border-bottom:1px dotted #585858; font-size:16px; font-weight:bold; margin-bottom:20px;}
+#footer li{margin-bottom:15px;}
+#footer .footbox{display:block; float:left; width:210px; margin:0 40px 0 0; padding:0;}
+#footer .flickr li{display:block; float:left; width:80px; height:80px; margin:0 7px 15px 7px; padding:4px; border:1px solid #BFE009;}
+#footer .banners li{display:block; width:200px; height:150px; margin:0 0 15px 0; padding:4px; border:1px solid #BFE009;}
+#footer .last{margin:0;}
+
+/* ----------------------------------------------Copyright------------------------------------- */
+
+#copyright{padding:15px 0;}
+#copyright p{margin:0; padding:0;}
