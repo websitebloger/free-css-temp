@@ -7,5 +7,7 @@ WEBSITEBLOGER
 -- Designstub
 
 ## How to join Class
-## ![How to join Class](doc/Class%20code.png?raw=true)
 ## ![join team.png](doc/join%20team.png?raw=true)
+Join Team
+## ![How to join Class](doc/Class%20code.png?raw=true)
+and add code...
