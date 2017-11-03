@@ -6,3 +6,4 @@ do not forget to register to our newsletter.
 WEBSITEBLOGER
 -- Designstub
 
+## ![How to join Class](doc/Class%20code.png?raw=true)
