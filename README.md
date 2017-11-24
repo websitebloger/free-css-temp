@@ -11,21 +11,7 @@ Releases are powered by [tagging specific points of history](https://github.com/
 |Brats17_TCIA_406_1|78.745|82|
 |free-css-temp|57.362|[v1.0](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0)|
 
-## How to join Class
-## ![join team](doc/join%20team.png?raw=true)
-Join Team
-## Auto Sign-in
-Automatically sign in to websites using stored credentials. If disabled, you will be asked for confirmation every time before signing in to a website.
-## ![How to join Class](doc/Class%20code.png?raw=true)
-copy and add code...
-## Class code
-1yycvrb
 
-# CyberChiefCook
-
-[![Build Status](https://travis-ci.org/samuelbetio/CyberChiefCook.svg?branch=master)](https://travis-ci.org/samuelbetio/CyberChiefCook)
-[![npm](https://badge.fury.io/js/CyberChiefCook.svg)](https://www.npmjs.com/package/CyberChiefCook)
-![](https://reposs.herokuapp.com/?path=samuelbetio/CyberChiefCook&color=brightgreen)
 
 #### *The Cyber Swiss Army Knife*
 
