@@ -3,13 +3,13 @@ Releases are powered by [tagging specific points of history](https://github.com/
 
 |FREE WEBSITE TEMPLATES|ZIP|Tags|
 |---------|---|--------|
-|Brats17_TCIA_167_1|[zip]|[v1.1]|
-|Brats17_TCIA_242_1|[zip]|[v1.1]|
-|Brats17_TCIA_319_1|[zip]|[v1.1]|
-|Brats17_TCIA_469_1|[zip]|[v1.1]|
+|Neos|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page219/neos.zip?raw=true)|[v219.4](https://github.com/websitebloger/free-css-temp/releases/tag/v219.4)|
+|Photofolio|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/photofolio.zip?raw=true)|[v1.5](https://github.com/websitebloger/free-css-temp/releases/tag/v1.5)|
+Photoprowess|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/photoprowess.zip?raw=true)|[v1.4](https://github.com/websitebloger/free-css-temp/releases/tag/v1.4)|
+|Plusbusiness|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/plusbusiness.zip?raw=true)|[v1.3](https://github.com/websitebloger/free-css-temp/releases/tag/v1.3)|
 |Realistic|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/realistic.zip?raw=true)|[v1.2](https://github.com/websitebloger/free-css-temp/releases/tag/v1.2)|
 |Academic-Education|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/academic-education.zip?raw=true)|[v1.1](https://github.com/websitebloger/free-css-temp/releases/tag/v1.1)|
-|FREE-CSS-TEAMP|[zip](https://github.com/websitebloger/free-css-temp/archive/v1.0.zip)|[v1.0](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0)|
+|FREE-CSS-TEMP|[zip](https://github.com/websitebloger/free-css-temp/archive/v1.0.zip)|[v1.0](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0)|
 
 
 
