@@ -16,7 +16,7 @@ Photoprowess|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads
 #### *Live Demo*
 
 
-[A live demo can be found here].[m] - have fun!
+ - [A live demo can be found here][1] - have fun!
 
 
 ## How it works
@@ -79,7 +79,7 @@ An installation walkthrough, how-to guides for adding new operations and themes,
 CyberChiefCook is released under the [Apache 2.0 Licence](https://www.apache.org/licenses/LICENSE-2.0) and is covered by [Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/).
 
 
-  [1]: https://samuelbetio.github.io/CyberChiefCook
+  [1]: https://websitebloger.github.io/free-css-temp/
   [2]: https://samuelbetio.github.io/CyberChiefCook/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1
   [3]: https://samuelbetio.github.io/CyberChiefCook/#recipe=Translate_DateTime_Format('Standard%20date%20and%20time','DD/MM/YYYY%20HH:mm:ss','UTC','dddd%20Do%20MMMM%20YYYY%20HH:mm:ss%20Z%20z','Australia/Queensland')&input=MTUvMDYvMjAxNSAyMDo0NTowMA
   [4]: https://samuelbetio.github.io/CyberChiefCook/#recipe=Parse_IPv6_address()&input=MjAwMTowMDAwOjQxMzY6ZTM3ODo4MDAwOjYzYmY6M2ZmZjpmZGQy
