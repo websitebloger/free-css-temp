@@ -82,13 +82,15 @@ You can use as many operations as you like in simple or complex ways. Some examp
      - Due to this feature, CyberChiefCook can be compiled into a single HTML file. You can download this file and drop it into a virtual machine, share it with other people, or use it independently on your desktop.
 
 
-## Browser support
-
-CyberChiefCook is built to support
-
- - Google Chrome 40+
- - Mozilla Firefox 35+
- - Microsoft Edge 14+
+|Brats17ID|Age|Survival|
+|---------|---|--------|
+|Brats17_TCIA_167_1|74.907|153|
+|Brats17_TCIA_242_1|66.479|147|
+|Brats17_TCIA_319_1|64.860|254|
+|Brats17_TCIA_469_1|63.899|519|
+|Brats17_TCIA_218_1|57.345|346|
+|Brats17_TCIA_406_1|78.745|82|
+|Brats17_TCIA_280_1|57.362|508|
 
 
 ## Contributing
