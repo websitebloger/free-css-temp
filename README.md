@@ -1,15 +1,15 @@
 ## There aren’t any releases here
 Releases are powered by [tagging specific points of history](https://github.com/websitebloger/free-css-temp/tags) in a repository. They’re great for marking release points like [v1.0.](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0) [Create a new release](https://github.com/websitebloger/free-css-temp/releases/new)
 
-|FREE WEBSITE TEMPLATES|Age|Tags|
+|FREE WEBSITE TEMPLATES|ZIP|Tags|
 |---------|---|--------|
-|Brats17_TCIA_167_1|74.907|153|
-|Brats17_TCIA_242_1|66.479|147|
-|Brats17_TCIA_319_1|64.860|254|
-|Brats17_TCIA_469_1|63.899|519|
-|Brats17_TCIA_218_1|57.345|346|
-|Brats17_TCIA_406_1|78.745|82|
-|free-css-temp|[zip](https://github.com/websitebloger/free-css-temp/archive/v1.0.zip)|[v1.0](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0)|
+|Brats17_TCIA_167_1|[zip]|[v1.1]|
+|Brats17_TCIA_242_1|[zip]|[v1.1]|
+|Brats17_TCIA_319_1|[zip]|[v1.1]|
+|Brats17_TCIA_469_1|[zip]|[v1.1]|
+|Realistic|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/realistic.zip?raw=true)|[v1.2](https://github.com/websitebloger/free-css-temp/releases/tag/v1.2)|
+|Academic-Education|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/academic-education.zip?raw=true)|[v1.1](https://github.com/websitebloger/free-css-temp/releases/tag/v1.1)|
+|FREE-CSS-TEAMP|[zip](https://github.com/websitebloger/free-css-temp/archive/v1.0.zip)|[v1.0](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0)|
 
 
 
