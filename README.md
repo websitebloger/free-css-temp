@@ -9,7 +9,7 @@ Releases are powered by [tagging specific points of history](https://github.com/
 |Brats17_TCIA_469_1|63.899|519|
 |Brats17_TCIA_218_1|57.345|346|
 |Brats17_TCIA_406_1|78.745|82|
-|free-css-temp|57.362|[v1.0](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0)|
+|free-css-temp|[zip](https://github.com/websitebloger/free-css-temp/archive/v1.0.zip)|[v1.0](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0)|
 
 
 
