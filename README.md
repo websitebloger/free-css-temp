@@ -16,7 +16,7 @@ Photoprowess|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads
 #### *Live Demo*
 
 
- - [A live demo can be found here][1] - have fun!
+ - [Home][1] - have fun!
 
 
 ## How it works
