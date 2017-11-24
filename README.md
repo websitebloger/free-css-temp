@@ -1,7 +1,7 @@
 ## There aren’t any releases here
 Releases are powered by [tagging specific points of history](https://github.com/websitebloger/free-css-temp/tags) in a repository. They’re great for marking release points like [v1.0.](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0) [Create a new release](https://github.com/websitebloger/free-css-temp/releases/new)
 
-|*FREE WEBSITE TEMPLATES|Age|Tags|
+|FREE WEBSITE TEMPLATES|Age|Tags|
 |---------|---|--------|
 |Brats17_TCIA_167_1|74.907|153|
 |Brats17_TCIA_242_1|66.479|147|
