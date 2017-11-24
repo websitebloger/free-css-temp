@@ -1,10 +1,12 @@
-Hey, Thanks for [downloading](https://github.com/websitebloger/free-css-temp/releases) '[the template!](https://github.com/websitebloger/free-css-temp/tree/downloads/docs/download)' Please note we don't reserved the copy rights for used images.
-If you like our templates, 
-
-do not forget to join to our [Google Classroom.](https://classroom.google.com/c/NzE3MjAzMTgxOVpa).
-
-WEBSITEBLOGER
--- Designstub
+|Name Temp|Age|Tags|
+|---------|---|--------|
+|Brats17_TCIA_167_1|74.907|153|
+|Brats17_TCIA_242_1|66.479|147|
+|Brats17_TCIA_319_1|64.860|254|
+|Brats17_TCIA_469_1|63.899|519|
+|Brats17_TCIA_218_1|57.345|346|
+|Brats17_TCIA_406_1|78.745|82|
+|free-css-temp|57.362|[v1.0](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0)|
 
 ## How to join Class
 ## ![join team](doc/join%20team.png?raw=true)
