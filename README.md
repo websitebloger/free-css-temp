@@ -1,40 +1,22 @@
-Hey, Thanks for [downloading](https://github.com/websitebloger/free-css-temp/releases) '[the template!](https://github.com/websitebloger/free-css-temp/tree/downloads/docs/download)' Please note we don't reserved the copy rights for used images.
-If you like our templates, 
+## There aren’t any releases here
+Releases are powered by [tagging specific points of history](https://github.com/websitebloger/free-css-temp/tags) in a repository. They’re great for marking release points like [v1.0.](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0) [Create a new release](https://github.com/websitebloger/free-css-temp/releases/new)
 
-do not forget to join to our [Google Classroom.](https://classroom.google.com/c/NzE3MjAzMTgxOVpa).
+|FREE WEBSITE TEMPLATES|ZIP|Tags|
+|---------|---|--------|
+|Neos|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page219/neos.zip?raw=true)|[v219.4](https://github.com/websitebloger/free-css-temp/releases/tag/v219.4)|
+|Photofolio|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/photofolio.zip?raw=true)|[v1.5](https://github.com/websitebloger/free-css-temp/releases/tag/v1.5)|
+Photoprowess|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/photoprowess.zip?raw=true)|[v1.4](https://github.com/websitebloger/free-css-temp/releases/tag/v1.4)|
+|Plusbusiness|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/plusbusiness.zip?raw=true)|[v1.3](https://github.com/websitebloger/free-css-temp/releases/tag/v1.3)|
+|Realistic|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/realistic.zip?raw=true)|[v1.2](https://github.com/websitebloger/free-css-temp/releases/tag/v1.2)|
+|Academic-Education|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/academic-education.zip?raw=true)|[v1.1](https://github.com/websitebloger/free-css-temp/releases/tag/v1.1)|
+|FREE-CSS-TEMP|[zip](https://github.com/websitebloger/free-css-temp/archive/v1.0.zip)|[v1.0](https://github.com/websitebloger/free-css-temp/releases/tag/v1.0)|
 
-WEBSITEBLOGER
--- Designstub
 
-## How to join Class
-## ![join team](doc/join%20team.png?raw=true)
-Join Team
-## Auto Sign-in
-Automatically sign in to websites using stored credentials. If disabled, you will be asked for confirmation every time before signing in to a website.
-## ![How to join Class](doc/Class%20code.png?raw=true)
-copy and add code...
-## Class code
-1yycvrb
 
-# CyberChiefCook
+#### *Live Demo*
 
-[![Build Status](https://travis-ci.org/samuelbetio/CyberChiefCook.svg?branch=master)](https://travis-ci.org/samuelbetio/CyberChiefCook)
-[![npm](https://badge.fury.io/js/CyberChiefCook.svg)](https://www.npmjs.com/package/CyberChiefCook)
-![](https://reposs.herokuapp.com/?path=samuelbetio/CyberChiefCook&color=brightgreen)
 
-#### *The Cyber Swiss Army Knife*
-
-CyberChiefCook is a simple, intuitive web app for carrying out all manner of "cyber" operations within a web browser. These operations include simple encoding like XOR or Base64, more complex encryption like AES, DES and Blowfish, creating binary and hexdumps, compression and decompression of data, calculating hashes and checksums, IPv6 and X.509 parsing, changing character encodings, and much more.
-
-The tool is designed to enable both technical and non-technical analysts to manipulate data in complex ways without having to deal with complex tools or algorithms. It was conceived, designed, built and incrementally improved by an analyst in their 10% innovation time over several years. Every effort has been made to structure the code in a readable and extendable format, however it should be noted that the analyst is not a professional developer.
-
-## Live demo
-
-CyberChiefCook is still under active development. As a result, it shouldn't be considered a finished product. There is still testing and bug fixing to do, new features to be added and additional documentation to write. Please contribute!
-
-Cryptographic operations in CyberChiefCook should not be relied upon to provide security in any situation. No guarantee is offered for their correctness.
-
-[A live demo can be found here][1] - have fun!
+ - [Home][1] - have fun!
 
 
 ## How it works
@@ -82,14 +64,6 @@ You can use as many operations as you like in simple or complex ways. Some examp
      - Due to this feature, CyberChiefCook can be compiled into a single HTML file. You can download this file and drop it into a virtual machine, share it with other people, or use it independently on your desktop.
 
 
-## Browser support
-
-CyberChiefCook is built to support
-
- - Google Chrome 40+
- - Mozilla Firefox 35+
- - Microsoft Edge 14+
-
 
 ## Contributing
 
@@ -105,7 +79,7 @@ An installation walkthrough, how-to guides for adding new operations and themes,
 CyberChiefCook is released under the [Apache 2.0 Licence](https://www.apache.org/licenses/LICENSE-2.0) and is covered by [Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/).
 
 
-  [1]: https://samuelbetio.github.io/CyberChiefCook
+  [1]: https://websitebloger.github.io/free-css-temp/
   [2]: https://samuelbetio.github.io/CyberChiefCook/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1
   [3]: https://samuelbetio.github.io/CyberChiefCook/#recipe=Translate_DateTime_Format('Standard%20date%20and%20time','DD/MM/YYYY%20HH:mm:ss','UTC','dddd%20Do%20MMMM%20YYYY%20HH:mm:ss%20Z%20z','Australia/Queensland')&input=MTUvMDYvMjAxNSAyMDo0NTowMA
   [4]: https://samuelbetio.github.io/CyberChiefCook/#recipe=Parse_IPv6_address()&input=MjAwMTowMDAwOjQxMzY6ZTM3ODo4MDAwOjYzYmY6M2ZmZjpmZGQy
