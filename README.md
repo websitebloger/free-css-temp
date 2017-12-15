@@ -3,6 +3,7 @@ Releases are powered by [tagging specific points of history](https://github.com/
 
 |FREE WEBSITE TEMPLATES|ZIP|Tags|
 |---------|---|--------|
+|Estate|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page221/Estate.zip?raw=true)|[v221.6](https://github.com/websitebloger/free-css-temp/releases/tag/v221.6)|
 |Neos|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page219/neos.zip?raw=true)|[v219.4](https://github.com/websitebloger/free-css-temp/releases/tag/v219.4)|
 |Photofolio|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/photofolio.zip?raw=true)|[v1.5](https://github.com/websitebloger/free-css-temp/releases/tag/v1.5)|
 Photoprowess|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads/page1/photoprowess.zip?raw=true)|[v1.4](https://github.com/websitebloger/free-css-temp/releases/tag/v1.4)|
