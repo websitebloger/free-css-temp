@@ -24,6 +24,7 @@ Photoprowess|[zip](https://github.com/websitebloger/free-css-temp/blob/downloads
 
 ## How it works
 
+
 There are four main areas in CyberChiefCook:
 
  1. The **input** box in the top right, where you can paste, type or drag the data you want to operate on.
