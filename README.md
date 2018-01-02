@@ -11,3 +11,4 @@ WEBSITEBLOGER
 
 <!-- Place this tag where you want the widget to render. -->
 <div class="g-person" data-href="//plus.google.com/u/0/107581145007636091005" data-rel="author"></div>
+
