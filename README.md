@@ -1,6 +1,6 @@
 Blue OnePage HTML5 Business Template
 ========
-<img src="https://github.com/samuelbetio/Blue-Onepage/blob/master/assets/10640964/5987921/7650444a-a970-11e4-91e4-6f53baebca99.jpg" />
+<img src="https://raw.githubusercontent.com/websitebloger/free-css-temp/live-demo-page/7650444a-a970-11e4-91e4-6f53baebca995.jpg" />
 
 <a href="https://plus.google.com/u/0/+SamuelBetio/">You Buy Update Page</a>
 ========
