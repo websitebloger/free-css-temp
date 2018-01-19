@@ -1,1 +1,120 @@
-"function"!=typeof Object.create&&(Object.create=function(a){function b(){}return b.prototype=a,new b}),function(a,b,c,d){var e={init:function(b,c){var d=this;d.$elem=a(c),d.$thumnail=a(c).find(".thumbnail"),d.options=a.extend({},a.fn.portfolio.options,b||{}),d.setColWidth(),d.$thumnail.click(function(){d.showContent(a(this))})},setColWidth:function(){var c=this;if(a(b).width()>970){var d=100/c.options.cols;c.$elem.find("li").css("width",d+"%")}},getContentPos:function(c){for(var d=this,e=d.$elem.find(".thumbnail"),f=null,g=0;g<=e.length;g++){var h=c.attr("href");if(h==a(e[g]).attr("href"))if(g!==e.length-1){var i=d.options.cols;a(b).width()<=1200&&a(b).width()>970?i=3:a(b).width()<=970&&a(b).width()>590?i=2:a(b).width()<=590&&(i=1);var j=g+1,f=0;f=j%i!==0?i-j%i+j:j,f>e.length&&(f=e.length)}else f=g+1}return f},showContent:function(b){var c=b.attr("href"),d=this,e=d.getContentPos(b);d.$elem.find("li a.thumbnail .active-arrow").remove(),d.$elem.find("li.content").remove(),b.append('<span class="active-arrow"></span>');var f=a(c),g='<li class="content"><span class="close">&times;</span>'+f.html()+"</li>";d.$elem.find("li:eq("+(e-1)+")").after(g),d.$elem.find("li")[d.options.transition](500),a("html, body").animate({scrollTop:d.$elem.find("li.content").offset().top-150},700),d.$elem.find(".close").click(function(){d.$elem.find("li a.thumbnail .active-arrow").remove(),d.$elem.find("li.content").remove()})}};a.fn.portfolio=function(a){return this.each(function(){var b=Object.create(e);b.init(a,this)})},a.fn.portfolio.options={cols:3,transition:"slideDown"}}(jQuery,window,document);
+// Utility
+if (typeof Object.create !== 'function') {
+    Object.create = function(obj) {
+        function F() {};
+        F.prototype = obj;
+        return new F();
+    };
+}
+
+(function($, window, document, undefined) {
+
+    var Portfolio = {
+        init: function(options, elem) {
+            var self = this;
+
+            self.$elem = $(elem);
+            self.$thumnail = $(elem).find('.thumbnail');
+
+            // Options
+            self.options = $.extend({}, $.fn.portfolio.options, options || {});
+
+            // Set columns width
+            self.setColWidth();
+
+            // On click
+            self.$thumnail.click(function() {
+                self.showContent($(this));
+            });
+        },
+        setColWidth: function() {
+            var self = this;
+
+            if ($(window).width() > 970) {
+                var colWidth = ((100 / self.options.cols));
+                self.$elem.find('li').css('width', colWidth + '%');
+            }
+        },
+        getContentPos: function(clicked) {
+            var self = this,
+                thumbnails = self.$elem.find('.thumbnail'),
+                contentPos = null;
+
+            for (var i = 0; i <= thumbnails.length; i++) {
+                // Get href
+                var href = clicked.attr('href');
+
+                if (href == $(thumbnails[i]).attr('href')) {
+                    // If its not the last thumb
+                    if (i !== (thumbnails.length - 1)) {
+
+                        var cols = self.options.cols;
+                        if ($(window).width() <= 1200 && $(window).width() > 970) cols = 3;
+                        else if ($(window).width() <= 970 && $(window).width() > 590) cols = 2;
+                        else if ($(window).width() <= 590) cols = 1;
+
+                        // thumb position
+                        var thumbPos = i + 1;
+                        // If there's no reminder
+                        var contentPos = 0;
+                        if (thumbPos % cols !== 0)
+                            contentPos = (cols - (thumbPos % cols)) + thumbPos;
+                        else // If we have a reminder
+                            contentPos = thumbPos;
+
+                        // Clean & Validate (This fixes weird bug when there's only 2 thumbs)
+                        if (contentPos > thumbnails.length) {
+                            contentPos = thumbnails.length;
+                        }
+                    } else {
+                        contentPos = i + 1;
+                    }
+                }
+            }
+
+            return contentPos;
+        },
+        showContent: function(thumbnail) {
+            var $href = thumbnail.attr('href'),
+                self = this,
+                contentPos = self.getContentPos(thumbnail);
+
+            // Remove existing stuff first
+            self.$elem.find('li a.thumbnail .active-arrow').remove();
+            self.$elem.find('li.content').remove();
+            // Add active arrow
+            thumbnail.append('<span class="active-arrow"></span>');
+
+            // Add content
+            var $portfolioContent = $($href);
+            var html = '<li class="content"><span class="close">&times;</span>' + $portfolioContent.html() + '</li>';
+
+            self.$elem.find('li:eq(' + (contentPos - 1) + ')').after(html);
+
+            // Animate
+            self.$elem.find('li')[self.options.transition](500);
+            $('html, body').animate({
+                scrollTop: self.$elem.find('li.content').offset().top -150
+            }, 700);
+
+            // Close content
+            self.$elem.find('.close').click(function(){
+                self.$elem.find('li a.thumbnail .active-arrow').remove();
+                self.$elem.find('li.content').remove();
+            });
+        }
+    };
+
+    $.fn.portfolio = function(options) {
+        return this.each(function(){
+            var portfolio = Object.create(Portfolio);
+            portfolio.init(options, this);
+        });
+    };
+
+    // Default options
+    $.fn.portfolio.options = {
+        cols: 3,
+        transition: 'slideDown'
+    };
+})(jQuery, window, document);
