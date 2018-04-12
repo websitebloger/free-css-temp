@@ -1,6 +1,6 @@
 Blue OnePage HTML5 Business Template
 ========
-<img src="https://raw.githubusercontent.com/websitebloger/free-css-temp/live-demo-page/7650444a-a970-11e4-91e4-6f53baebca995.jpg" />
+<img src="7650444a-a970-11e4-91e4-6f53baebca995.jpg" />
 
 <a href="https://websitebloger.github.io/free-css-temp/">You Buy Update Page</a>
 ========
